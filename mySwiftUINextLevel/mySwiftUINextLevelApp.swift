@@ -11,7 +11,7 @@ import SwiftUI
 struct mySwiftUINextLevelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            mySwiftUI_NL_LongPressGesture()
         }
     }
 }
