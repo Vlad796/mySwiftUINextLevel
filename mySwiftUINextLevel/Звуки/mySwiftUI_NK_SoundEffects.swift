@@ -36,13 +36,13 @@ struct mySwiftUI_NK_SoundEffects: View {
     var body: some View {
         VStack(spacing: 20) {
             Button {
-                sound.soundManager.playSound(sound: .bruh)
+                sound.soundManager.playSound(sound: .uwu)
             } label: {
                 Text("Play Sound 1")
             }
             
             Button {
-                sound.soundManager.playSound(sound: .uwu)
+                sound.soundManager.playSound(sound: .bruh)
             } label: {
                 Text("Play Sound 2")
             }
