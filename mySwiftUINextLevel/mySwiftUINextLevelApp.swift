@@ -11,7 +11,7 @@ import SwiftUI
 struct mySwiftUINextLevelApp: App {
     var body: some Scene {
         WindowGroup {
-            mySwiftUI_NL_LongPressGesture()
+            mySwiftUI_NL_PushNotifications()
         }
     }
 }

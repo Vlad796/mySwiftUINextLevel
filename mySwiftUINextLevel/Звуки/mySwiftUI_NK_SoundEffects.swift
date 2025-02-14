@@ -11,7 +11,7 @@ import AVKit
 //rawValue - не обработанное значение тут  является строкой
 
 class sound {
-    static let soundManager = sound()
+    static let soundManager = sound()   // Это Singleton. Это патерн который обеспечивает создание только одного экземпляра класса, на протяжении всего приложения
     
     var playr: AVAudioPlayer?   //Плеер, который можно представить как iTunce. Он воспроизводит звуки. Но для него надо указать что воспроизводить
     
